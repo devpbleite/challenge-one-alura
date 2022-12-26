@@ -46,5 +46,5 @@ ___
 
 <img src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/encode.png" width="100%">
 
-<img align="center" src="[https://cursos.alura.com.br/assets/images/certificates/new/logo/oracle-one-logo.png](https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1671211139Prancheta_3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_br&utm_medium=email&utm_source=RD+Station)" width="30%">
+<img align="center" src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/badge.png" width="30%">
 
