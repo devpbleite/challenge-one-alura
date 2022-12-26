@@ -6,12 +6,12 @@
 
 # Challenge ONE - #challengeonedecodificador4
 
-Challenge One: Construção de uma aplicação de criptografia e descriptografia de textos.
+ -  O challenge em questão se baseaia na construção de uma aplicação de criptografia e descriptografia de textos.
 
 ## Sobre o Projeto:
 ___
 
-  - A aplicação foi desenvolvida utilizando HTML, CSS e JavaScript, na qual o usuário poderá inserir um texto que será criptografado, e as "chaves" de criptografia usadas foram:
+  - A aplicação foi desenvolvida utilizando HTML, CSS e JavaScript, onde o usuário poderá inserir um texto que será criptografado, e as "chaves" de criptografia usadas são:
     - A letra "a": Transforma em : "ai"
     - A letra "e": Transforma em : "enter"
     - A letra "i": Transforma em : "imes"
