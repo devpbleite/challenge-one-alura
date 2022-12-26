@@ -1,11 +1,11 @@
 function encode() {
-  let decodedMessage = document.getElementById('encode-text').value;
+  let decodedMessage = document.getElementById('encode-text').value
   if (decodedMessage.length > 0) {
-    document.querySelector('.not-find').style.display = 'none';
-    document.querySelector('.encoded-box').style.display = 'flex';
+    document.querySelector('.not-find').style.display = 'none'
+    document.querySelector('.encoded-box').style.display = 'flex'
   } else {
-    document.querySelector('.not-find').style.display = 'block';
-    document.querySelector('.encoded-box').style.display = 'none';
+    document.querySelector('.not-find').style.display = 'block'
+    document.querySelector('.encoded-box').style.display = 'none'
   }
 
   let encodeMessage = decodedMessage
@@ -13,24 +13,24 @@ function encode() {
     .replace(/i/gim, 'imes')
     .replace(/a/gim, 'ai')
     .replace(/o/gim, 'ober')
-    .replace(/u/gim, 'ufat');
+    .replace(/u/gim, 'ufat')
 
-  document.querySelector('.encoded-text').innerHTML = encodeMessage;
+  document.querySelector('.encoded-text').innerHTML = encodeMessage
 }
 
 function copy() {
-  let encodedMessage = document.querySelector('.encoded-text').value;
-  navigator.clipboard.writeText(encodedMessage);
+  let encodedMessage = document.querySelector('.encoded-text').value
+  navigator.clipboard.writeText(encodedMessage)
 }
 
 function decode() {
-  let encodedMessage = document.getElementById('encode-text').value;
+  let encodedMessage = document.getElementById('encode-text').value
   if (encodedMessage.length > 0) {
-    document.querySelector('.not-find').style.display = 'none';
-    document.querySelector('.encoded-box').style.display = 'flex';
+    document.querySelector('.not-find').style.display = 'none'
+    document.querySelector('.encoded-box').style.display = 'flex'
   } else {
-    document.querySelector('.not-find').style.display = 'block';
-    document.querySelector('.encoded-box').style.display = 'none';
+    document.querySelector('.not-find').style.display = 'block'
+    document.querySelector('.encoded-box').style.display = 'none'
   }
 
   let decodedMessage = encodedMessage
@@ -38,18 +38,17 @@ function decode() {
     .replace(/imes/gim, 'i')
     .replace(/ai/gim, 'a')
     .replace(/ober/gim, 'o')
-    .replace(/ufat/gim, 'u');
+    .replace(/ufat/gim, 'u')
 
-  document.querySelector('.encoded-text').innerHTML = decodedMessage;
-
+  document.querySelector('.encoded-text').innerHTML = decodedMessage
 }
 
 function limpar() {
-  let encodedMessage = document.getElementById('encode-text').value;
+  let encodedMessage = document.getElementById('encode-text').value
   if (encodedMessage.length > 0) {
-    document.querySelector('.not-find').style.display = 'block';
-    document.querySelector('.encoded-box').style.display = 'none';
-    document.querySelector('#encode-text').value = '';
-    document.querySelector('#encode-text').focus();
+    document.querySelector('.not-find').style.display = 'block'
+    document.querySelector('.encoded-box').style.display = 'none'
+    document.querySelector('#encode-text').value = ''
+    document.querySelector('#encode-text').focus()
   }
-};
+}
