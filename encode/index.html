@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Encode 🔐</title>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header-logo gradient">
+        <img src="assets/images/padlock.gif" alt="Logo">
+        <h1 class="gradient">Encode</h1>
+      </div>
+
+    </header>
+    <main class="container">
+      <div class="main">
+        <div class="encode">
+          <div class="encode-text">
+            <form>
+              <textarea name="" id="encode-text" autofocus
+                placeholder="Digite seu texto..." autocomplete="off" autofocus="on" required></textarea>
+            </form>
+
+          </div>
+          <div class="click-area">
+            <div class="warning-area">
+              <img src="assets/images/exclamation-icon.png" alt="">
+              <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons">
+              <button class="button btn-encode" onclick="encode(this)">Criptografar</button>
+              <button class="button btn-decode" onclick="decode(this)">Descriptografar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="decode">
+          <div class="not-find">
+            <img src="assets/images/foto3.png" alt="">
+            <h3>Nenhuma mensagem encontrada</h3>
+            <p>Digite um texto que você deseja criptografar ou
+              descriptografar.</p>
+          </div>
+          <div class="encoded-box">
+            <textarea disabled class="encoded-text"></textarea>
+            <div>
+              <button class="button btn-copy" onclick="copy()">Copiar</button>
+            </div>
+            <div>
+              <button class="button btn-clear" onclick="clear()">Limpar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div>&copy by PabloL.</div>
+      <div class="icons"><a href="https://www.linkedin.com/in/pabloleite03/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/devpbleite" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+        <a href="https://codepen.io/devpbleite" target="_blank"><i class="fa-brands fa-codepen fa-2x"></i></a>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/6ad911922d.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
