@@ -40,6 +40,8 @@ ___
 -	JavaScript
 - Git e Github
 
+## 🔗 Link do Projeto: https://devpbleite.github.io/encode-challenge/
+
 ## 📌 Resultado do Projeto:
 
 <img src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/encode.png" width="100%">
