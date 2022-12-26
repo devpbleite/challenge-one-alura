@@ -32,6 +32,7 @@ ___
 ## Extras:
 
  - Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
+ - Um botão de limpar que limpa o texto do campo de criptografia e reseta a caixa de texto da área de descriptografia para seu estado inicial.
 
 ## Tecnologias Utilizadas:
 -	HTML
@@ -40,7 +41,5 @@ ___
 - Git e Github
 
 ## 📌 Resultado do Projeto:
-
-![Screenshot](encode.png)
 
 <img src="https://github.com/devpbleite/challenge-alura.github.io/blob/main/encode/assets/images/encode.png" width="100%">
