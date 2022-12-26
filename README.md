@@ -42,4 +42,4 @@ ___
 
 ## 📌 Resultado do Projeto:
 
-<img src="https://github.com/devpbleite/challenge-alura.github.io/blob/main/encode/assets/images/encode.png" width="100%">
+<img src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/encode.png" width="100%">
