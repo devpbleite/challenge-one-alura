@@ -44,9 +44,12 @@ function decode() {
 
 }
 
-function clear() {
-  document.querySelector('encode-text').addEventListener("click", () => {
-  encode();
-  document.querySelector('encode-text', 'decode').value = "";
-  document.querySelector('encode-text', 'decode').focus();
-})};
+function limpar() {
+  let encodedMessage = document.getElementById('encode-text').value;
+  if (encodedMessage.length > 0) {
+    document.querySelector('.not-find').style.display = 'block';
+    document.querySelector('.encoded-box').style.display = 'none';
+    document.querySelector('#encode-text').value = '';
+    document.querySelector('#encode-text').focus();
+  }
+};
