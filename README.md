@@ -44,7 +44,9 @@ ___
 
 ## 📌 Resultado do Projeto:
 
-<img src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/encode.png" width="100%">
+<img src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/encode.png" width="100%"><br><br>
 
+<p align="center">
 <img align="center" src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/badge.png" width="30%">
+</p>  
 
