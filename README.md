@@ -2,6 +2,7 @@
 <a href="https://www.linkedin.com/in/pabloleite03/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 <a href = "mailto:devpbleite@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://discord.com/channels/@PabloL#3331" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
+<img align="right" src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/badge.png" width="30%">
 
 # Challenge ONE - #challengeonedecodificador4
 
@@ -47,6 +48,6 @@ ___
 <img src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/encode.png" width="100%"><br><br>
 
 <p align="center">
-<img align="center" src="https://github.com/devpbleite/encode-challenge/blob/main/assets/images/badge.png" width="30%">
+
 </p>  
 
